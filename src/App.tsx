@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Box, ThemeProvider, CssBaseline, Button } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import {getVibes} from './api/salesforce'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
-    const handleSubmit = async (e: React.FormEvent) => {
+    const handleSubmit = async () => {
       try {
         await getVibes();
       } catch {
