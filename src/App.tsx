@@ -6,7 +6,7 @@ import { useState } from 'react';
 import VibeSelect  from './VibeSelect'
 import ShowResults from './Results'
 
-type ScreenState = 'vibeselect' | 'results';
+type ScreenState = 'vibeselect' | 'results' | 'loading';
 function App() {
 
   const [screenState, setScreenState] = useState<ScreenState>('vibeselect');
@@ -21,6 +21,7 @@ function App() {
   }
 
   const vibeAddCallback = (vibeSelected: string) => {
+    setScreenState('loading')
     addVibeRepoCall(vibeSelected).then(_ => {setScreenState('results')})
   };
 
@@ -37,6 +38,8 @@ function App() {
         return <VibeSelect addVibe = {vibeAddCallback}/>
       case 'results':
         return <ShowResults vibeItem = {[]} backPressCallback = {onBackClick}/>
+      case 'loading':
+        return <div> Submitting...</div>
     }
   }
 
