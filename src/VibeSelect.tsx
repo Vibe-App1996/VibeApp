@@ -50,16 +50,16 @@ function VibeSelect({addVibe}: VibeSelectProps) {
               }}
           >
             <Typography variant="body1" sx={{ mb:3, color: "white" }}> What's the vibe? </Typography>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Serene")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Serene 🌊 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Anxious")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Anxious 😰 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Euphoric")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Euphoric 🌟 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Grinchy")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Grinchy 😈 </Button>
             <Button variant="outlined"color="primary" onClick={() => addVibe("Melancholic")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Melancholic 🌧️ </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Irritated")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Irritated 😒 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Hopeful")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Hopeful 🌱 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Overwhelmed")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Overwhelmed 💥 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Grateful")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Grateful 🙏 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Bored")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Bored 😐 </Button>
-            <Button variant="outlined"color="primary" onClick={() => addVibe("Confident")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Confident 🦁 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Bittersweet")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Bittersweet 🍬 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Somber")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Somber 🕯️ </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Reflective")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Reflective 🤔 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Nostalgic")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Nostalgic 🎄 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Hopeful")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Hopeful ✨ </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Warm")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Warm ☕ </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Festive")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Festive 🎉 </Button>
+            <Button variant="outlined"color="primary" onClick={() => addVibe("Joyful")} sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Joyful 😄 </Button>
           </Stack>
         </Box>
 
