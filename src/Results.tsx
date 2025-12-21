@@ -61,8 +61,8 @@ function MyBarChart({vibeItem, backPressCallback}: VibeResponseProps) {
         </Paper>
         <Button variant="outlined" color="primary" onClick={() => backPressCallback() } sx={{borderWidth: "3px", borderColor: "white", color: "white"}}> Go back</Button>
             <Typography variant="body1" color="white" gutterBottom>
-                    Watch some grinchmas videos here: <a href="https://www.youtube.com/@MerryGrinchmas-r8m" target="_blank" rel="noopener noreferrer"> Secret Link </a>   
-                    What's the vibe is made by an unemployed software developer. <br />
+                    Watch some super secret grinchmas videos. <a href="https://www.youtube.com/@MerryGrinchmas-r8m" target="_blank" rel="noopener noreferrer"> Click Here! </a> <br />   
+                    What's the vibe is made by an unemployed UT Austin Computer Engineer. <br />
                     If you would like to donate 🙏: <a href="https://www.buymeacoffee.com/tiktoklates" target="_blank" rel="noopener noreferrer"> Click here</a> <br />
                     If you would like to hire to make a website 💻: <a href="mailto:unemployedengineersince2025@gmail.com">Email Me</a><br />   
             </Typography>
