@@ -50,16 +50,8 @@ function VibeSelect({addVibe}: VibeSelectProps) {
               }}
           >
             <Typography variant="h3" fontWeight={700} sx={{ mb:3, color: "black" }}> What's the vibe? </Typography>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Grinchy")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Grinchy 😈 </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Melancholic")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Melancholic 🌧️ </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Bittersweet")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Bittersweet 🍬 </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Somber")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Somber 🕯️ </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Reflective")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Reflective 🤔 </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Nostalgic")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Nostalgic 🎄 </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Hopeful")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Hopeful ✨ </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Warm")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Warm ☕ </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Festive")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Festive 🎉 </Button>
-            <Button variant="contained"color="primary" onClick={() => addVibe("Joyful")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Joyful 😄 </Button>
+            <Button variant="contained"color="primary" onClick={() => addVibe("Jesus")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Jesus </Button>
+            <Button variant="contained"color="primary" onClick={() => addVibe("Devil")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Devil </Button>
           </Stack>
         </Box>
 
