@@ -49,7 +49,7 @@ function VibeSelect({addVibe}: VibeSelectProps) {
                 zIndex: 1,
               }}
           >
-            <Typography variant="h3" fontWeight={700} sx={{ mb:3, color: "black" }}> What's the vibe? </Typography>
+            <Typography variant="h3" fontWeight={700} sx={{ mb:3, color: "black" }}> Something? </Typography>
             <Button variant="contained"color="primary" onClick={() => addVibe("Jesus")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Jesus </Button>
             <Button variant="contained"color="primary" onClick={() => addVibe("Devil")} sx={{borderWidth: "3px", backgroundColor: "black", color: "white"}}> Devil </Button>
           </Stack>
