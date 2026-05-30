@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const GET_VIBES_URL = "https://orgfarm-bc5ca8ede1-dev-ed.develop.my.salesforce-sites.com/services/apexrest/getVibes";
-const ADD_VIBE_URL = "https://orgfarm-bc5ca8ede1-dev-ed.develop.my.salesforce-sites.com/services/apexrest/updateVibe"
+const GET_VIBES_URL = "https://orgfarm-250f37efd0-dev-ed.develop.my.salesforce-sites.com/services/apexrest/getVibes";
+const ADD_VIBE_URL = "https://orgfarm-250f37efd0-dev-ed.develop.my.salesforce-sites.com/services/apexrest/updateVibe"
 
 // interface VibeList {
 //   vibes: VibeItem[];
